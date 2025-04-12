@@ -42,3 +42,18 @@ button{
     margin-left: 125px ;
     background-color: cornflowerblue;
 }
+button:hover{
+    color: aliceblue;
+    background-color: black;
+animation: Nilesh  2s ease-in 0s  infinite  ;
+}
+
+@keyframes Nilesh {
+    from{
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);  
+    }
+
+
+}
