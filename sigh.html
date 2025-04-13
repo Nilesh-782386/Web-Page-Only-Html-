@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assi1WDD.css">
+    <meta charset="UTF-8">
+    <title>Sign Up | MLSC VIT Pune</title>
+</head>
+<body>
+
+    <h2>Create an Account</h2>
+
+    <form action="login.html" method="get">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="prn">PRN:</label><br>
+        <input type="text" id="prn" name="prn" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="branch">Branch:</label><br>
+        <select id="branch" name="branch" required>
+            <option value="">--Select Branch--</option>
+            <option value="CS">CS</option>
+            <option value="IT">IT</option>
+            <option value="CSAIML">CS (AIML)</option>
+            <option value="AIDS">AIDS</option>
+            <option value="ENTC">EN&TC</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="CHEMICAL">CHEMICAL</option>
+            <option value="OTHER">Other</option>
+        </select><br><br>
+
+        <label for="year">Year:</label><br>
+        <select id="year" name="year" required>
+            <option value="">--Select Year--</option>
+            <option value="FY">FY</option>
+            <option value="SY">SY</option>
+            <option value="TY">TY</option>
+        </select><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+
+</body>
+</html>

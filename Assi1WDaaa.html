@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLSC VIT Pune</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <img class="img" src="MIcroIMG.jpg" alt="Microsoft Logo" height="50" width="50">
+        <h3 class="h3">Microsoft Student Learn Club</h3>
+        <h1>MLSC VIT Pune</h1>
+        <nav class="list">
+            <ul id="no">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/">TEAM</a></li>
+                <li><a href="/">EVENT</a></li>
+                <li><a href="/">BLOG</a></li>
+                <li><a href="/">PROJECT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Learn-Build-Inspire</h2>
+            <p>
+                <img src="MLSC Logo Changed.png" alt="MLSC Logo" height="200" width="200">
+                MLSC VIT Pune Learn-Build-Inspire
+            </p>
+        </section>
+
+        <section class="about">
+            <h3>ABOUT US</h3>
+            <h4>
+                Microsoft Learn Student Club is a technical club dedicated to elevating the coding culture at Vishwakarma Institute of Technology. We mentor and motivate members to refine their critical thinking, logical reasoning, and coding skills. 
+                Our goal is to spread technical knowledge through peer-to-peer learning, open source projects, technical events, and comprehensive seminars.
+            </h4>
+            <img src="AboutUs.png" alt="About Us Image" height="300" width="300">
+        </section>
+
+        <section class="event">
+            <h2>EVENT</h2>
+            <div class="event-info">
+                <div>EVENT</div>
+                <div>PARTICIPANT</div>
+            </div>
+            <h4>
+                MLSC organizes impactful events like BIT by BIT and Capture the Flag, featuring expert-led sessions. These events help participants enhance vocational skills and problem-solving through curated content.
+            </h4>
+            <button>CHECK OUR EVENT</button>
+        </section>
+
+        <section class="project">
+            <h2>PROJECT</h2>
+            <h3>ONGOING PROJECTS</h3>
+            <p>
+                We believe in hands-on learning. Our team regularly works on projects in domains like Web Development, ML/AI, IoT, Robotics, and more to apply theoretical knowledge in practical ways.
+            </p>
+            <button>CHECK OUR PROJECT</button>
+        </section>
+
+        <section class="register-login">
+            <h2>Join Us</h2>
+            <div class="buttons">
+                <button id="openRegister">Register</button>
+                <button id="openLogin">Login</button>
+                
+            </div>
+
+            <!-- Registration Form -->
+            <div id="registerForm" class="form-popup">
+                <form class="form-container">
+                    <h3>Register</h3>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+<br>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="year">Year</label>
+
+                    <select id="year" name="year" required><br>
+                        <option value="">--Select Year--</option>
+                        <option value="FE">FE</option>
+                        <option value="SE">SE</option>
+                        <option value="TE">TE</option>
+                        <option value="BE">BE</option>
+                    </select>
+                    <br>
+                    <label for="semester">Semester</label>
+                    <select id="semester" name="semester" required>
+                        <option value="">--Select Semester--</option>
+                        <option value="1">1</option><option value="2">2</option>
+                        <option value="3">3</option><option value="4">4</option>
+                        <option value="5">5</option><option value="6">6</option>
+                        <option value="7">7</option><option value="8">8</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                    <button type="button" class="cancel" onclick="document.getElementById('registerForm').style.display='none'">Close</button>
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div id="loginForm" class="form-popup">
+                <form class="form-container">
+                    <h3>Login</h3>
+                    <label for="login-name">Full Name</label>
+                    <input type="text" id="login-name" name="login-name" required>
+
+                    <label for="dob-login">Date of Birth</label>
+                    <input type="date" id="dob-login" name="dob-login" required>
+
+                    <button type="submit">Login</button>
+                    <button type="button" class="cancel" onclick="document.getElementById('loginForm').style.display='none'">Close</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Microsoft Student Learn Club<br>Made by NILESH</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/reels/DITcFv9SsDu/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/login/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
