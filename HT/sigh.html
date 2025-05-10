@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSSSS/Sighup.css">
+    <meta charset="UTF-8">
+    <title>Sign Up | MLSC VIT Pune</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="login.html" method="get">
+            <h2>Create an Account</h2>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="prn">PRN:</label>
+            <input type="text" id="prn" name="prn" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="">--Select Branch--</option>
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="CSAIML">CS (AIML)</option>
+                <option value="AIDS">AIDS</option>
+                <option value="ENTC">EN&TC</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="CHEMICAL">CHEMICAL</option>
+                <option value="OTHER">Other</option>
+            </select>
+
+            <label for="year">Year:</label>
+            <select id="year" name="year" required>
+                <option value="">--Select Year--</option>
+                <option value="FY">FY</option>
+                <option value="SY">SY</option>
+                <option value="TY">TY</option>
+            </select>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Sign Up">
+
+            <p class="login-text">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>

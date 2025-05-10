@@ -1,0 +1,125 @@
+/* Background and Global Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../memeber/Images/vitpSecond.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Overlay for dark readability */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.header .h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.list ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Sections */
+.intro, .about, .event, .project {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.intro img, .about img {
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+/* Event Info Boxes */
+.event-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00aced;
+}
